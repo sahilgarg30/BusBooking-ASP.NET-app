@@ -1,0 +1,51 @@
+.header{
+    top: 0px;
+    left:0px;
+    right:0px;
+    height:140px;
+    position:absolute;
+    text-align: center;
+    background-color: darkblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.footer {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60  px;
+    position: absolute;
+    text-align: center;
+    margin-top:50px;
+    font-size: 5px;
+    background-color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.left {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    width: 400px;
+    height: 420px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif font-size: 50px;
+    background-color: white;
+}
+.body{
+    background-color:cornflowerblue;
+}
+.center{
+    position:absolute;
+    top:160px;
+    margin-left: 700px;
+    margin-right: 530px;
+}
+.right {
+    position: absolute;
+    background-color: white;
+    top: 160px;
+    height: 420px;
+    right: 100px;
+    width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif width: 400px;
+    font-size: 12px;
+}

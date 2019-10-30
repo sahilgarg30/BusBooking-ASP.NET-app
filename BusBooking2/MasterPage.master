@@ -1,0 +1,56 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+
+
+<!DOCTYPE html>
+
+
+
+<html>
+
+<head runat="server">
+    
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>BusBooking</title>
+    
+</head>
+
+<body class="body" >
+    <form id="form1" runat="server">
+        
+     
+    <div class="header" runat="server">
+        <br/>
+        
+        <asp:Image runat="server" ImageUrl="~/bus.png" ImageAlign="Left" style="z-index: 1; left: 29px; top: 20px; position: absolute; height: 92px; width: 179px"/>
+        <asp:Label ID="Label1" runat="server" SkinID="main" > BusBooking </asp:Label>
+        <br/>
+         
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                <asp:ImageButton ID="ImageButton1" PostBackUrl="~/MainPage.aspx" ImageUrl="~/logout.jpg" runat="server" Height="23px" style="z-index: 1; left: 827px; top: 47px; position: absolute" Width="115px"/>
+        </asp:ContentPlaceHolder>
+        
+    </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+        <br/>
+        
+         <div class="footer">
+       
+        <asp:Label ID="Label2" runat="server" Font-Size="7px" ForeColor="white">
+        <h2>IT_LAB Project, Bus Ticket Booking Website</h2>
+        <h2>    Project By: Sahil Garg, Jenit Jain </h2>
+        <h2>    Registration ID: 160905058, 160905070</h2>
+        <h2>    Roll numbers: 8,9     </h2>
+        </asp:Label>
+        </div>
+          
+    </form>
+</body>
+
+</html>
